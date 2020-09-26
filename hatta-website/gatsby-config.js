@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Hatta Website`,
@@ -31,6 +33,12 @@ module.exports = {
       options: {
         name: `articles`,
         path: `${__dirname}/src/data/articles`,
+      },
+    },
+    {
+      resolve: `gatsby-source-datocms`,
+      options: {
+        apiToken: process.env.API_DATO_TOKEN,
       },
     },
     `gatsby-transformer-sharp`,
