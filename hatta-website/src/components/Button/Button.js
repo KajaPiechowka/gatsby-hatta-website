@@ -7,6 +7,7 @@ const Button = styled.button`
   color: #ffffff;
   font-size: 13px;
   border: none;
+  marigin-bottom: 30px;
 `
 
 export default Button
