@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => (
         While artists work from real to the abstract, architects must work from
         the abstract to the real.
       </p>
-      <Button>esaminate project</Button>
+      <Button>estimate project</Button>
     </ContentWrapper>
     <StyledImage fluid={data.file.childImageSharp.fluid} />
   </>
